@@ -1,0 +1,13 @@
+<%- include("./partials/header") %>
+<div class="sign-in">
+<span class="navbar-text" id="name">username
+</span>
+<form action="/sign_in" method="POST">
+  <input type="text" name="username" />
+  <br>
+  <br>
+  <input type="submit" class="btn btn-success" value="Sign In" />
+</form>
+</div>
+
+<%- include("./partials/footer") %>

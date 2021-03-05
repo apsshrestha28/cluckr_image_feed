@@ -1,0 +1,18 @@
+<%- include("./partials/header") %>
+<form id="cluck-new" action="/clucks" method="POST">
+    <div>
+      <label for="content">Content</label>
+      <input name="content" type="text" class="form-control" id="content">
+    </div>
+    
+    <div>
+      <label for="img_url">Image Url</label>
+      <input name="img_url" type="text" class="form-control" id="img_url">
+    </div>
+   
+    <br>
+    <button type="submit" class="btn btn-success">Cluck!</button>
+  
+</form>
+
+<%- include("./partials/footer") %>

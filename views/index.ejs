@@ -1,0 +1,26 @@
+
+<%- include("./partials/header") %>
+<% for (let cluck of clucks) { %>
+  
+  <div class="main-page">
+    
+     <div class="left-side">
+        <img class = emoji src="../images/chicken.png" alt="chicken icon" />
+     </div>
+
+      <div>
+        <h5 ><%= cluck.username %></h5>
+        <span><%= cluck.created_at%></span>
+
+        <p><%= cluck.content %></p>
+        <% if(cluck.img_url){ %>
+        <img src="<%= cluck.img_url %>" class="card-img-top">
+
+      <%} %>
+      
+    </div>
+  </div>
+  
+<% } %>
+
+<%- include("./partials/footer") %>

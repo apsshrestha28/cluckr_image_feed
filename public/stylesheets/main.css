@@ -1,0 +1,52 @@
+
+body {
+  width: 60%;
+  height:100%;
+  margin-left: 20%;
+  margin-right: 10%;
+  border: 1px solid black;
+}
+
+#username {
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.navbar{
+  display: flex;
+  background-color:black;
+  flex-grow:2;
+}
+
+
+img.emoji {
+  height: 3em;
+  width: 3em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+#cluck-new{
+  border:1px solid black;
+  margin:10px;
+  padding:20px;
+}
+
+
+.sign-in{
+  border:1px solid black;
+  margin:10px;
+  padding:20px;
+}
+.main-page{
+  display:flex;
+  align-items:stretch;
+  border:1px solid black;
+  margin:20px;
+  padding:20px;
+  flex-grow:10;
+}
+.left-side{
+  margin:2px;
+}
+
