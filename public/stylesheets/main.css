@@ -17,11 +17,15 @@ body {
   background-color:black;
   flex-grow:2;
 }
+.appName {
+  color: white;
+  font-size: 25px;
 
+}
 
 img.emoji {
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   margin: 0 .05em 0 .1em;
   vertical-align: -0.1em;
 }
