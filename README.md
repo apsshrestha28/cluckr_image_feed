@@ -1,4 +1,4 @@
-# cluckr image feed 
+# Cluckr Image Feed 
 
 Description  : Platform to add images with title and contents.
 
